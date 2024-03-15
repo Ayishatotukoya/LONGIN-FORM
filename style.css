@@ -1,0 +1,116 @@
+
+
+
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: "poppins", sans-serif;
+}
+body{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ min-height: 100vh;
+ background:url(./images/nature2.jpeg) no-repeat;
+ background-size: cover;
+ background-position: center;
+ /* color: #fff; */
+
+ 
+}
+.outer{
+ width: 420px;
+ /* color: #fff; */
+border-radius: 12px;
+padding: 30px 40px;
+border: 2px solid rgba(255, 255, 255, .2);
+backdrop-filter: blur(10px);
+}
+.outer h1{
+ text-align: center;
+ text-transform: capitalize;
+ font-size: 36px;
+ color: #fff;
+}
+.outer .input-box{
+ width: 100%;
+ height: 50px;
+ margin:30px 0;
+ position: relative;
+ color: #fff;
+}
+.input-box input{
+ width: 100%;
+ height: 100%;
+ border: none;
+ outline: none;
+ background: transparent;
+ border: 2px solid rgba(255,255, 255, 0.2);
+ border-radius: 40px;
+ color: white;
+}
+.input-box input::placeholder{
+ color: white;
+}
+.input-box i{
+ position: absolute;
+right: 20px;
+top: 30%;
+transform: translate(-50%);
+font-size: 20px;
+
+}
+.outer .remember-forgot{
+ display: flex;
+ justify-content: space-between;
+ font-size: 14.5px;
+ margin: 15px 0 15px;
+}
+.remember-forgot label input{
+ accent-color: #fff;
+ margin-right: 3px;
+}
+label{
+ color: #fff;
+}
+.remember-forgot a{
+color: #fff;
+text-decoration: none;
+}
+.remember-forgot a:hover{
+text-decoration: underline;
+}
+.outer .btw{
+width: 100%;
+height: 45px;
+background-color: #fff;
+border:none ;
+outline: none;
+box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+border-radius: 50px;
+cursor: pointer;
+font-weight: 600;
+font-size: 16px;
+color: #333;
+}
+.outer .register-link{
+font-size: 14.5px;
+text-align: center;
+margin: 20px 0 15px;
+}
+.outer .register-link a{
+font-size: 14.5px;
+text-align: center;
+margin-top: 20px;
+text-decoration: none;
+font-weight: 600;
+color: #fff;
+}
+.outer .register-link a:hover{
+text-decoration: underline;
+}
+p{
+ color: #fff;
+}
+
